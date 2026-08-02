@@ -125,9 +125,6 @@ http://localhost:5173
 ## 📬 Contact
 
 📧 Email: **nupurchoudhary005@gmail.com**
-
-💼 LinkedIn: *(Add your LinkedIn profile)*
-
 💻 GitHub: **https://github.com/nupurchoudhary21**
 
 ---
