@@ -1,16 +1,139 @@
-# React + Vite
+# 💼 Nupur Choudhary - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 🚀
 
-Currently, two official plugins are available:
+This portfolio showcases my projects, technical skills, certifications, and journey as a Computer Science student passionate about Artificial Intelligence, Machine Learning, and Web Development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern UI with Glassmorphism Design
+- 💻 Interactive 3D Hero Section
+- ✨ Animated Particle Background
+- 👩 About Me Section
+- 🛠 Skills Showcase
+- 📂 Project Gallery
+- 🏆 3D Certificate Carousel
+- 📄 Resume Download
+- 📧 Contact Section
+- ⚡ Smooth Scrolling Navigation
+- 📱 Responsive Design *(In Progress)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+
+### Libraries
+
+- React Icons
+- Lucide React
+- OGL (Particles)
+- Sketchfab Embed
+
+### Languages
+
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   └── nupur_resume.pdf
+│
+├── src/
+│   ├── assets/
+│   │   ├── certificates/
+│   │   ├── projects/
+│   │   └── photo.jpg
+│   │
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Certificates.jsx
+│   │   ├── Contacts.jsx
+│   │   ├── Home.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Particles.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/nupurchoudhary21/nupur-portfolio.git
+```
+
+Navigate into the project
+
+```bash
+cd nupur-portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at
+
+```text
+http://localhost:5173
+```
+
+---
+
+
+## 🎯 Future Improvements
+
+- Fully responsive design
+---
+
+
+## 📬 Contact
+
+📧 Email: **nupurchoudhary005@gmail.com**
+💻 GitHub: **https://github.com/nupurchoudhary21**
+
+---
+
+
+---
+
+<div align="center">
+
+### Designed & Developed with ❤️ by Nupur Choudhary
+
+</div>
