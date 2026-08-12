@@ -13,6 +13,16 @@ const projects = [
     github: "https://github.com/nupurchoudhary21/spam-classifier",
     demo: "https://spam-classifier-website.streamlit.app/",
   },
+    {
+    id: 2,
+    title: "Blogify",
+    description:
+      "A full-stack blogging platform where users can create, publish, and explore blog posts. Blogify provides user authentication, image uploads, blog management, and a commenting system through a React frontend and Express.js REST API.",
+    tech: ["React", "Nodejs", "MOngodb"],
+    image: "/src/assets/projects/blogify.png",
+    github: "https://github.com/nupurchoudhary21/blog-website",
+    demo: "https://blog-website-xlem.onrender.com/",
+  },
   {
     id: 2,
     title: "Netflix Website Clone",
