@@ -5,7 +5,7 @@ export default function Contacts() {
   return (
     <section
       id="contact"
-      className="relative h-[650px] overflow-hidden bg-[#22223b] py-12"
+      className="relative h-full overflow-hidden bg-[#22223b] py-12"
     >
       <div className="absolute inset-0 -z-10 pointer-events-none">
         <Particles
@@ -23,20 +23,20 @@ export default function Contacts() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-6xl px-8">
-        <h2 className="text-center text-xl font-medium uppercase tracking-[0.2em] text-[#9a8c98] mt-12">
+      <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 md:px-8 sm:mt-20">
+        <h2 className="mt-8 text-center text-lg font-medium uppercase tracking-[0.15em] text-[#9a8c98] sm:text-xl sm:tracking-[0.2em] md:mt-12">
           Get In Touch
         </h2>
 
-        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-300">
+        <p className="mx-auto mt-5 max-w-2xl text-center text-base leading-7 text-gray-300 sm:mt-6 sm:text-lg sm:leading-8">
           Whether you have an internship opportunity, an exciting project, or
           simply want to connect, I'd love to hear from you.
         </p>
 
-        <div className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-3 sm:gap-5 md:gap-6">
           {/* Email */}
           <a
-            href="mailto:nupurchoudhary005@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nupurchoudhary005@gmail.com&su=Portfolio%20Inquiry&body=Hi%20Nupur,"
             className="group rounded-2xl border border-white/10 bg-white/5 p-5 
             backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-[#9a8c98] hover:bg-white/10"
           >
@@ -51,7 +51,7 @@ export default function Contacts() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/YOUR_GITHUB_USERNAME"
+            href="https://github.com/nupurchoudhary21"
             target="_blank"
             rel="noopener noreferrer"
             className="group rounded-2xl border border-white/10 bg-white/5 p-5 
@@ -68,7 +68,7 @@ export default function Contacts() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/YOUR_LINKEDIN"
+            href="https://www.linkedin.com/in/nupurchoudhary18/"
             target="_blank"
             rel="noopener noreferrer"
             className="group rounded-2xl border border-white/10 bg-white/5 p-5 
@@ -87,7 +87,7 @@ export default function Contacts() {
         </div>
 
         {/* Bottom Text */}
-        <p className="mx-auto mt-16 max-w-3xl text-center text-gray-400">
+        <p className="mx-auto mt-12 max-w-3xl px-2 text-center text-sm leading-7 text-gray-400 sm:mt-16 sm:px-0 sm:text-base">
           I'm currently seeking{" "}
           <span className="font-semibold text-[#f2e9e4]">
             internship opportunities

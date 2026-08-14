@@ -1,7 +1,6 @@
 import Particles from "./Particles";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-
 const projects = [
   {
     id: 1,
@@ -13,7 +12,7 @@ const projects = [
     github: "https://github.com/nupurchoudhary21/spam-classifier",
     demo: "https://spam-classifier-website.streamlit.app/",
   },
-    {
+  {
     id: 2,
     title: "Blogify",
     description:
@@ -69,7 +68,6 @@ function ProjectCard({ project, index }) {
         hover:-translate-y-1 hover:border-[#F8B2B2] hover:shadow-lg
       `}
     >
-
       <div className="w-full md:w-2/5 shrink-0 overflow-hidden rounded-xl border border-[#9a8c98]/30">
         <img
           src={project.image}
@@ -77,7 +75,6 @@ function ProjectCard({ project, index }) {
           className="w-full h-40 md:h-full object-cover transition-transform duration-300 ease-out group-hover:scale-110"
         />
       </div>
-
 
       <div className="w-full md:w-3/5">
         <h3 className="text-xl font-semibold text-[#f2e9e4] mb-2">
@@ -100,7 +97,6 @@ function ProjectCard({ project, index }) {
             </span>
           ))}
         </div>
-
 
         <div className="flex flex-wrap gap-3">
           {project.github && (
@@ -149,7 +145,6 @@ export default function Projects() {
       id="projects"
       className="relative min-h-screen overflow-hidden bg-[#22223b] py-20"
     >
-
       <div className="absolute inset-0 -z-0">
         <Particles
           particleCount={200}
@@ -167,7 +162,6 @@ export default function Projects() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl px-8 mt-5">
-
         <p className="text-xl font-medium uppercase tracking-[0.2em] text-[#9a8c98] text-center">
           Projects
         </p>
@@ -176,7 +170,6 @@ export default function Projects() {
           Things I&apos;ve Built
         </h2>
 
-    
         <div className="mt-12 flex flex-col gap-6">
           {projects.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
