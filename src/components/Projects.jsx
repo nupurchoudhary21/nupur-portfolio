@@ -23,7 +23,7 @@ const projects = [
     demo: "https://blog-website-xlem.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Netflix Website Clone",
     description:
       "A modern Netflix landing page clone built using HTML, CSS, and JavaScript. This project recreates the look and feel of Netflix's homepage with interactive UI components and smooth user experience.",
@@ -33,7 +33,7 @@ const projects = [
     demo: "https://netflix-website-clone-delta.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Word Guess Gaming",
     description:
       "A responsive Word Guessing Game built using HTML, CSS, and JavaScript. Players can guess letters or attempt to guess the entire country name before running out of attempts.",
@@ -43,7 +43,7 @@ const projects = [
     demo: "https://word-guessing-name.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     description:
       "A simple and responsive weather application built using HTML, CSS, and JavaScript that fetches real-time weather information using the OpenWeather API.",
