@@ -1,5 +1,11 @@
 import Particles from "./Particles";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import spamEmail from "../assets/projects/spamemail.png";
+import blogify from "../assets/projects/blogify.png";
+import netflix from "../assets/projects/netflix.png";
+import wordGuess from "../assets/projects/wordGuess.png";
+import weatherApp from "../assets/projects/weatherApp.png";
+
 
 const projects = [
   {
@@ -8,7 +14,7 @@ const projects = [
     description:
       "Spam detection ML pipeline in Python with a deployed web interface for real-time classification.",
     tech: ["Python", "Streamlit", "scikit-learn"],
-    image: "/src/assets/projects/spamemail.png",
+    image: spamEmail,
     github: "https://github.com/nupurchoudhary21/spam-classifier",
     demo: "https://spam-classifier-website.streamlit.app/",
   },
@@ -18,7 +24,7 @@ const projects = [
     description:
       "A full-stack blogging platform where users can create, publish, and explore blog posts. Blogify provides user authentication, image uploads, blog management, and a commenting system through a React frontend and Express.js REST API.",
     tech: ["React", "Nodejs", "MOngodb"],
-    image: "/src/assets/projects/blogify.png",
+    image: blogify,
     github: "https://github.com/nupurchoudhary21/blog-website",
     demo: "https://blog-website-xlem.onrender.com/",
   },
@@ -28,7 +34,7 @@ const projects = [
     description:
       "A modern Netflix landing page clone built using HTML, CSS, and JavaScript. This project recreates the look and feel of Netflix's homepage with interactive UI components and smooth user experience.",
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "/src/assets/projects/netflix.png",
+    image: netflix,
     github: "https://github.com/nupurchoudhary21/netflix-website-clone",
     demo: "https://netflix-website-clone-delta.vercel.app/",
   },
@@ -38,7 +44,7 @@ const projects = [
     description:
       "A responsive Word Guessing Game built using HTML, CSS, and JavaScript. Players can guess letters or attempt to guess the entire country name before running out of attempts.",
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "/src/assets/projects/wordGuess.png",
+    image: wordGuess,
     github: "https://github.com/nupurchoudhary21/word-guessing-name",
     demo: "https://word-guessing-name.vercel.app/",
   },
@@ -48,7 +54,7 @@ const projects = [
     description:
       "A simple and responsive weather application built using HTML, CSS, and JavaScript that fetches real-time weather information using the OpenWeather API.",
     tech: ["HTML", "CSS", "JavaScript", "API"],
-    image: "/src/assets/projects/weatherApp.png",
+    image: weatherApp ,
     github: "https://github.com/nupurchoudhary21/weather-app",
     demo: "https://weather-app-sigma-eight-33.vercel.app/",
   },
