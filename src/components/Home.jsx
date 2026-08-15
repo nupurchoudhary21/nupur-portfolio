@@ -72,7 +72,7 @@ export default function Home() {
             </a>
 
             <a
-              href="/nupur_resume.pdf"
+              href="/Resume-final-nupur.pdf"
               download="nupur_choudhary_resume.pdf"
               className="flex items-center justify-center gap-3 rounded-xl border border-[#9a8c98] px-5 py-3 
               text-sm text-[#f2e9e4] transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-[#9a8c98] hover:text-[#22223b] sm:px-6 sm:text-base"
