@@ -6,6 +6,12 @@ This portfolio showcases my projects, technical skills, certifications, and jour
 
 ---
 
+Live Application - https://nupur-choudhary.vercel.app/
+
+Preview:
+<img width="1918" height="842" alt="image" src="https://github.com/user-attachments/assets/7b494026-499c-4476-a5e6-0429b97b8721" />
+
+
 
 ## ✨ Features
 
@@ -19,7 +25,7 @@ This portfolio showcases my projects, technical skills, certifications, and jour
 - 📄 Resume Download
 - 📧 Contact Section
 - ⚡ Smooth Scrolling Navigation
-- 📱 Responsive Design *(In Progress)*
+- 📱 Responsive Design
 
 ---
 
@@ -116,16 +122,12 @@ http://localhost:5173
 ---
 
 
-## 🎯 Future Improvements
-
-- Fully responsive design
----
-
 
 ## 📬 Contact
 
-📧 Email: **nupurchoudhary005@gmail.com**
-💻 GitHub: **https://github.com/nupurchoudhary21**
+📧 Email: **nupurchoudhary005@gmail.com** <br>
+💻 GitHub: **https://github.com/nupurchoudhary21** <br>
+💻 Linkedin: **https://www.linkedin.com/in/nupurchoudhary18**
 
 ---
 
