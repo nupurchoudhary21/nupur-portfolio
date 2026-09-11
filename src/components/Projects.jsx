@@ -4,7 +4,7 @@ import spamEmail from "../assets/projects/spamemail.png";
 import blogify from "../assets/projects/blogify.png";
 import netflix from "../assets/projects/netflix.png";
 import wordGuess from "../assets/projects/wordGuess.png";
-import weatherApp from "../assets/projects/weatherApp.png";
+import taskflow from "../assets/projects/taskflow.png";
 
 
 const projects = [
@@ -23,7 +23,7 @@ const projects = [
     title: "Blogify",
     description:
       "A full-stack blogging platform where users can create, publish, and explore blog posts. Blogify provides user authentication, image uploads, blog management, and a commenting system through a React frontend and Express.js REST API.",
-    tech: ["React", "Nodejs", "MOngodb"],
+    tech: ["React", "Nodejs", "Mongodb"],
     image: blogify,
     github: "https://github.com/nupurchoudhary21/blog-website",
     demo: "https://blog-website-xlem.onrender.com/",
@@ -50,13 +50,13 @@ const projects = [
   },
   {
     id: 5,
-    title: "Weather App",
+    title: "TaskFlow",
     description:
-      "A simple and responsive weather application built using HTML, CSS, and JavaScript that fetches real-time weather information using the OpenWeather API.",
-    tech: ["HTML", "CSS", "JavaScript", "API"],
-    image: weatherApp ,
-    github: "https://github.com/nupurchoudhary21/weather-app",
-    demo: "https://weather-app-sigma-eight-33.vercel.app/",
+      "A full-stack task management application with JWT authentication and complete CRUD functionality, built using React, Node.js, Express, and MongoDB.",
+    tech: ["Nodejs", "Reactjs", "Mongodb"],
+    image: taskflow,
+    github: "https://github.com/nupurchoudhary21/taskflow",
+    demo: "https://taskflow-k3x4.vercel.app",
   },
 ];
 
