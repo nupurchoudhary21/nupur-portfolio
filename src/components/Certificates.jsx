@@ -8,6 +8,7 @@ import DataAnalytics from "../assets/certificates/dataAnalyticsJobSimulation.jpg
 import datacleaning from "../assets/certificates/datacleaning.png";
 import introml from "../assets/certificates/introml.png";
 import pandas from "../assets/certificates/pandas.png";
+import infosysdbms from "../assets/certificates/infosysdbms.png";
 
 
 const certificates = [
@@ -57,6 +58,12 @@ const certificates = [
     date: "15/03/26",
     image: datacleaning,
     link: "https://www.kaggle.com/learn/certification/nupur16/data-cleaning",
+  },
+    {
+    title: "Database Management System Part-2",
+    issuer: "Infosys Springboard",
+    date: "08/11/26",
+    image: infosysdbms,
   },
 ];
 

@@ -5,7 +5,7 @@ import blogify from "../assets/projects/blogify.png";
 import netflix from "../assets/projects/netflix.png";
 import wordGuess from "../assets/projects/wordGuess.png";
 import taskflow from "../assets/projects/taskflow.png";
-
+import sentimentanalyzer from "../assets/projects/sentimentanalyzer.png";
 
 const projects = [
   {
@@ -18,8 +18,17 @@ const projects = [
     github: "https://github.com/nupurchoudhary21/spam-classifier",
     demo: "https://spam-classifier-website.streamlit.app/",
   },
+  {  id: 2,
+    title: "Hinglish Sentiment Analyzer",
+    description:
+      "Developed a three-class (negative, neutral, positive) sentiment classifier for code-mixed Hindi-English text using TF-IDF features and a Linear SVM.",
+    tech: ["Python", "Scikit-learn", "TF-IDF", "Gradio"],
+    image: sentimentanalyzer,
+    github: "https://github.com/nupurchoudhary21/Hinglish-Sentiment-Analysis",
+    demo: "https://hinglish-sentiment-analysis-mcdw.onrender.com/",
+  },
   {
-    id: 2,
+    id: 3,
     title: "Blogify",
     description:
       "A full-stack blogging platform where users can create, publish, and explore blog posts. Blogify provides user authentication, image uploads, blog management, and a commenting system through a React frontend and Express.js REST API.",
@@ -29,7 +38,7 @@ const projects = [
     demo: "https://blog-website-xlem.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Netflix Website Clone",
     description:
       "A modern Netflix landing page clone built using HTML, CSS, and JavaScript. This project recreates the look and feel of Netflix's homepage with interactive UI components and smooth user experience.",
@@ -39,7 +48,7 @@ const projects = [
     demo: "https://netflix-website-clone-delta.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Word Guess Gaming",
     description:
       "A responsive Word Guessing Game built using HTML, CSS, and JavaScript. Players can guess letters or attempt to guess the entire country name before running out of attempts.",
@@ -49,7 +58,7 @@ const projects = [
     demo: "https://word-guessing-name.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "TaskFlow",
     description:
       "A full-stack task management application with JWT authentication and complete CRUD functionality, built using React, Node.js, Express, and MongoDB.",
